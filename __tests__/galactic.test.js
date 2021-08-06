@@ -13,8 +13,13 @@ describe('Galactic', () => {
   test('should return user age in Mercury years', () => {
     const userAge = new Galactic(28)
     const result = userAge.onMercury()
-    expect(result).toEqual("116.1")
+    expect(result).toEqual("116")
   });
+
+  test('should return user age in Venus years', () => {
+    const userAge = new Galactic(28)
+    expect(userAge.onVenus()).toEqual("45")
+  })
 });
 
 
