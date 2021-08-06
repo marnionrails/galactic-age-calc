@@ -14,7 +14,9 @@ export default class Galactic {
   }
 
   onMercury() {
-
+    let earthDays = this.age * 365;
+    let mercuryAge = earthDays/88;
+    return mercuryAge.toFixed(1);
   }
   
 }
