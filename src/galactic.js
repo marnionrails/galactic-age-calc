@@ -36,5 +36,19 @@ export default class Galactic {
     return jupiterAge.toFixed(0);
   }
   
+  yearsLeftonEarth() {
+    if (this.age <= 100) {
+      let yearsLeft = 100 - this.age;
+      return yearsLeft;
+    }
+    else if (this.age > 100) {
+      let yearsExceeded = this.age - 100;
+      return 0;
+    }
+    else {
+      return "Error";
+    }
+  }
+
 }
 
