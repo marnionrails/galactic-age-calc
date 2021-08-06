@@ -6,7 +6,7 @@
 
 #### _Table of Contents_
 
-1. [Descroption](#description)
+1. [Description](#description)
 2. [Technologies Used](#technologies)
 3. [Setup/Installation Requirements](#setup)
 4. [Specs](#specs)
@@ -41,3 +41,24 @@ This application will calculate the user's age on Mercury, Mars, Veunus, and Jup
   * _webpack 4.39.3_
   * _webpack-cli 3.3.8_
   * _webpack-dev-server 3.8.0_
+
+  ## Setup/Installation Requirements <a id="setup"></a>
+
+Setup requirements
+* Install [Node.js](https://nodejs.org/en/) and [Node Package Manager (npm)](https://www.npmjs.com/) 
+* Note: 
+  If you are using a Windows machine, line 8 in package.json should be: 
+`"start": "npm run build & webpack-dev-server --open --mode development"`
+  For a Mac machine:
+  `"start": "npm run build; webpack-dev-server --open --mode development"`
+
+Installation
+* Clone repository to your machine using command: `$ git clone https://github.com/marnionrails/galactic-age-calc`
+* In your terminal, navigate to the top level of the directory: `galactic-age-calc/`
+* Run this command to install the dependencies: `$ npm install`
+* Run and open project in a live server: `$ npm run start`
+* To lint code, run: `$ npm run lint`
+* Run tests with Jest using command: `$ npm run test`
+
+## Bugs <a id="bugs"></a>
+* None at this time
