@@ -2,7 +2,7 @@
 
 #### Epicodus Code Review #5: Test-Driven Development and Webpack
 
-#### By Marni Sucher
+#### Created By Marni Sucher, 8.5.2021
 
 #### _Table of Contents_
 
