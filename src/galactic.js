@@ -12,6 +12,10 @@ export default class Galactic {
     }
     return this.dialogue;
   }
+
+  onMercury() {
+
+  }
   
 }
 
