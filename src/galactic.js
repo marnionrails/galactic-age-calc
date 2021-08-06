@@ -31,5 +31,9 @@ export default class Galactic {
     return marsAge.toFixed(0);
   }
   
+  onJupiter() {
+    return 0;
+  }
+  
 }
 
